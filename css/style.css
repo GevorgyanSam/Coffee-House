@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bodyparent{
+    box-shadow: 5px 5px 45px rgba(0, 0, 0, 0.651);
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    width: 1150px;
+    padding: 0 20px 40px 20px;
+}
+
+
+
+
+                    /* nav */
+
+
+
+
+.navparent{
+    position: relative;
+    overflow: hidden;
+}
+.navheader h1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-style: italic;
+    font-weight: normal;
+    transition: .7s;
+    animation: navanim 2s;
+}
+.navheader h1:hover{
+    transform: scale(1.1) rotate(-5deg);
+    color: rgba(255, 255, 255, 1);
+}
+@keyframes navanim {
+    from{
+        color: rgba(255, 255, 255, 0);
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0);
+        top: -30px;
+        left: -30px;
+    }
+    to{
+        color: rgba(255, 255, 255, 0.8);
+        text-shadow: 5px 5px 10px rgb(0, 0, 0);
+        top: 10;
+        left: 20;
+    }
+}
+.navimg .navimg1{
+    height: 350px;
+    width: 1150px;
+    border-radius: 20px;
+}
+.navlinks{
+    position: absolute;
+    top: -5px;
+    left: 710px;
+    border-bottom: 1px solid white;
+    animation: linkanim 2s;
+}
+@keyframes linkanim {
+    from{
+        top: -70px;
+        left: 710px;
+        color: rgba(255, 255, 255, 0);
+    }
+    to{
+        top: -5px;
+        left: 710px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+}
+.navlinks > ul, .a1, .a2, .a3{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    margin-left: 10px;
+    padding: 15px 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    transition: .5s;
+    border-bottom: 2px solid rgba(255, 158, 147, 0);
+}
+.a1:hover{
+    transform: scale(1.15);
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+.a1:focus{
+    border-radius: 5px;
+    box-shadow: 2px 2px 25px black;
+}
+.a2:hover{
+    transform: scale(1.15);
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+.a2:focus{
+    border-radius: 5px;
+    box-shadow: 2px 2px 25px black;
+}
+.a3:hover{
+    transform: scale(1.15);
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+.a3:focus{
+    border-radius: 5px;
+    box-shadow: 2px 2px 25px black;
+}
+
+
+
+
+                    /* main */
+
+
+
+.mainparent{
+    border-radius: 10px;
+}
+.mainparent h1{
+    text-shadow: 3px 3px 5px black;
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-style: italic;
+    font-weight: normal;  
+    margin-top: 20px;
+}
+.mainparent p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 27px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 1px 1px 2px black;
+}
+.content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content1 div{
+    padding: 15px 20px;
+    margin: 15px;
+    margin-top: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+.content1 img{
+    height: 280px;
+    width: 200px;
+    border-radius: 10px;
+}
+.content1 h3{
+    text-shadow: 2px 2px 5px black;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-style: italic;
+    font-weight: normal; 
+    transition: .7s;
+}
+.content1 h3:hover{
+    transform: scale(1.1);
+    color: rgba(255, 255, 255, 1);
+}
+.content1 p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 1px 1px 2px black;
+}
+.content1 button{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 3px groove rgba(255, 255, 255, 0.76);
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.822);
+    transition: .7s;
+}
+.content1 button:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content2 div{
+    padding: 15px 20px;
+    margin: 15px;
+    margin-top: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+.content2 img{
+    height: 280px;
+    width: 200px;
+    border-radius: 10px;
+}
+.content2 h3{
+    text-shadow: 2px 2px 5px black;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-style: italic;
+    font-weight: normal; 
+    transition: .7s;
+}
+.content2 h3:hover{
+    transform: scale(1.1);
+    color: rgba(255, 255, 255, 1);
+}
+.content2 p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 1px 1px 2px black;
+}
+.content2 button{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 3px groove rgba(255, 255, 255, 0.76);
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.822);
+    transition: .7s;
+}
+.content2 button:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+                    /* footer */
+
+
+
+.footerparent{
+    margin-top: 240px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.836);
+    overflow: hidden;
+}
+.footerdiv1{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+    padding-bottom: 35px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.76);
+}
+.footerdiv1 div{
+    margin-left: 70px;
+    line-height: 22px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.footerdiv1 h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.footerdiv1 .div5{
+    margin-left: 170px;
+}
+.div5 select{
+    margin-top: 15px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+.footerdiv2{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+}
+.footerdiv2 .div6{
+    margin: 15px;
+    padding: 15px;
+    line-height: 30px;
+    margin-left: 40px;
+}
+.div6 .p1{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.712);
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.footerdiv2 .div7{
+    margin: 15px;
+    padding: 15px;
+    line-height: 22px;
+    margin-left: 40px;
+}
+.footerdiv2 .input1{
+    margin-left: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 35px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border: none;
+    border-bottom: 1px solid black;
+    color: white;
+}
+.input1::placeholder{
+    color: black;
+}
+.footerdiv2 .input2{
+    padding: 5px;
+    padding-left: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border: none;
+    border-bottom: 1px solid black;
+}
+.footerparent h3{
+    text-shadow: 2px 2px 5px black;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-style: italic;
+    font-weight: normal; 
+}
+.footerparent p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 1px 1px 2px black;
+}
+.p2 .footerlink{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #ffb3b3;
+    text-shadow: 1px 1px 2px black;
+}
+.p2 abbr{
+    text-decoration: none;
+}
